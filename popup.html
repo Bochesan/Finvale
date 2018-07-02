@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Finvale</title>
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+	<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/popups.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="Keywords" content="">
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/jquery.fancybox.js"></script>
+	<script src="assets/js/jquery.mCustomScrollbar.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
+	<script src="assets/js/jquery.maskedinput.js"></script>
+	<script src="assets/js/main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="site_bg">
+	
+<header>
+<div class="inner_header">
+	<div class="top_line clearfix">
+		<div class="logo">
+			<a href="#">
+				<img src="assets/img/logo.png" alt="">
+			</a>
+		</div>
+		<a href="#" class="mobile_menu_btn"></a>
+		<a href="#" class="mobile_login"></a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Акции</a></li>
+			<li><a href="#">Облигации</a></li>
+			<li><a href="#">Профиль</a></li>
+		</ul>
+	</nav>
+	<div class="how_start">
+		<a href="#">Как начать <span class="br"></span>
+работу</a>
+	</div>
+	<div class="about_company">
+		<a href="#">О Finvale <span class="br"></span>
+Marketplace</a>
+	</div>
+</div>
+</header>
+
+<main>
+<div class="authorization_line clearfix">
+	<!-- <div class="auth_line auth_on">
+		<div class="user">Добрый день, <span class="user_name">Егор Казанцев</span></div>
+		<a href="#" class="log_in_out">Выйти</a>
+	</div> -->
+	<div class="auth_line auth_off">
+		<div class="login_btn">
+			<a href="#">Войти</a>
+		</div>
+		<div class="regist_btn">
+			<a href="#">Регистрация</a>
+		</div>
+	</div>
+</div>
+<div class="content">
+<!--***************************** 1 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#authorization_popup" href="javascript://">Button 1</a>
+
+		<div id="authorization_popup">
+		<div class="au_inner">
+			<div class="au_title">Авторизация</div>
+			<div class="au_text">Введите логин и пароль</div>
+			<form action="">
+				<div class="au_email">
+					<input type="text" placeholder="E-mail адрес">
+				</div>
+				<div class="au_pwd">
+					<input type="password" placeholder="Пароль">
+				</div>
+				<label class="au_checkbox">
+					<input type="checkbox">
+					<span class="title_check">Запомнить меня</span>
+				</label>
+				<input type="submit" value="Войти">
+			</form>
+			<a href="#" class="mobile_registration">Зарегистрироваться</a>
+		</div>
+		</div>
+<!--***************************** 1 *********************************-->
+
+<!--***************************** 2 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#fail_vivod" href="javascript://">Button 2</a>
+
+		<div id="fail_vivod" class="other_popup">
+			<img src="assets/img/fail-red-ic.png" alt="">
+			<div class="title_popup">Вывод денежных средств
+не соврешен</div>
+			<div class="text_popup">Небольшое описание ошибки, <span class="br"></span>
+как же так вышло</div>
+			<a href="#" class="btn_popup">OK</a>
+		</div>
+<!--***************************** 2 *********************************-->
+
+<!--***************************** 3 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#confirm_vivod" href="javascript://">Button 3</a>
+
+		<div id="confirm_vivod" class="other_popup">
+			<img src="assets/img/confirm-green-ic.png" alt="">
+			<div class="title_popup">Вывод денежных средств
+успешно совершен</div>
+			<a href="#" class="btn_popup">OK</a>
+		</div>
+<!--***************************** 3 *********************************-->
+
+<!--***************************** 4 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#info_vivod" href="javascript://">Button 4</a>
+
+		<div id="info_vivod" class="other_popup">
+			<div class="title_popup">Вывод денежных средств</div>
+			<div class="line_iv">
+				<div class="title_liv">Владелец</div>
+				<div class="text_liv">Егор Витальевич К.</div>
+			</div>
+			<div class="line_iv">
+				<div class="title_liv">Наименование банка получателя</div>
+				<div class="text_liv">Московский Банк Сбербанка России</div>
+			</div>
+			<div class="line_iv">
+				<div class="title_liv">БИК</div>
+				<div class="text_liv">044525225</div>
+			</div>
+			<div class="line_iv">
+				<div class="title_liv">Корр. счет</div>
+				<div class="text_liv">30101810400000000225</div>
+			</div>
+			<div class="line_iv">
+				<div class="title_liv">ИНН</div>
+				<div class="text_liv">7707083893</div>
+			</div>
+			<div class="line_iv">
+				<div class="title_liv">КПП</div>
+				<div class="text_liv">7707083893</div>
+			</div>
+
+			<a href="#" class="btn_popup">Вывести</a>
+		</div>
+<!--***************************** 4 *********************************-->
+
+<!--***************************** 5 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#reg_broker" href="javascript://">Button 5</a>
+
+		<div id="reg_broker" class="other_popup">
+			<img src="assets/img/broker-reg-popup-ic.png" alt="">
+			<div class="title_popup">Регистрация у брокера</div>
+			<div class="text_popup">Перед осуществлением покупки или продажи, вас необходимо осуществить регистрацию у брокера IT Invest</div>
+			<a href="#" class="btn_popup">регистрация</a>
+		</div>
+<!--***************************** 5 *********************************-->
+
+<!--***************************** 6 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#need_auth" href="javascript://">Button 6</a>
+
+		<div id="need_auth" class="other_popup">
+			<img src="assets/img/info-popup-ic.png" alt="">
+			<div class="title_popup">Требуется авторизация</div>
+			<div class="text_popup">Для осуществления покупки 
+или продажи необходимо войти 
+в систему</div>
+			<a href="#" class="btn_popup">Войти</a>
+		</div>
+<!--***************************** 6 *********************************-->
+
+<!--***************************** 7 *********************************-->
+		<a href="#" class="btn-popup" data-fancybox data-src="#auth_broker" href="javascript://">Button 7</a>
+
+		<div id="auth_broker" class="other_popup">
+			<div class="title_popup">Авторизация у брокера</div>
+			<div class="podtitle_popup">Введите логин и пароль</div>
+			<form action="">
+				<div class="au_login">
+					<input type="text" placeholder="Логин">
+				</div>
+				<div class="au_pwd">
+					<input type="password" placeholder="Пароль">
+				</div>
+				<input type="submit" value="Войти">
+			</form>
+		</div>
+<!--***************************** 7 *********************************-->
+	
+
+</div>
+</main>
+
+</div>
+</div>
+
+</body>
+</html>
